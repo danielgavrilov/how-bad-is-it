@@ -132,8 +132,6 @@ d3.csv("data/bsc.csv", function(err, BSc) {
         .attr("class", "x axis")
         .attr("transform", "translate(0," + height + ")")
         .call(xAxis);
-    
-    debugger;
 
     // $('#search .typeahead').typeahead({
     //   hint: true,
