@@ -49,8 +49,8 @@ function substringMatcher(strs) {
   };
 }
 
-d3.csv("data/bsc1.csv", function(err, BSc) {
-  d3.csv("data/meng1.csv", function(err, MEng) {
+d3.csv("data/bsc.csv", function(err, BSc) {
+  d3.csv("data/meng.csv", function(err, MEng) {
 
     var data = BSc.concat(MEng);
 
