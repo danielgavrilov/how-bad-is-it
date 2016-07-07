@@ -7,7 +7,7 @@ var moduleNames = {
   "ENGS101P": "Integrated Engineering",
   "ENGS102P": "Design & Professional Skills",
   "MATH6301": "Discrete Mathematics for Computer Scientists",
-  "Raw Year Average": "" 
+  "Raw Year Average": "Average"
 };
 
 var modules = _.keys(moduleNames);
