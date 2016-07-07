@@ -1,8 +1,17 @@
-#content {
-  text-align: center;
+#content1 {
+  float: left;
 }
 
-svg {
+#content2 {
+  float: right;
+}
+
+.graphHolder {
+  text-align: center;
+  width: 50%;
+}
+
+html {
   font: 10px sans-serif;
 }
 
